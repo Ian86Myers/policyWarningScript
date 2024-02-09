@@ -50,35 +50,4 @@ python policy_warning_report.py -email your_email@domain.com [-m | -s]
    * `-m` : Send the report to your email.
    * `-s` : Print the report to the console (default behavior).
 
-**Customization**
 
-* Time-based thresholds for policies (e.g., `policyOneLimit`, `policyTwoWarningTime`) can be adjusted at the top of the script.  
-
-**To-Do (For Development Purposes)**
-* Consider adding command-line arguments to customize which policies should be included in the report.
-* Write automated test cases.
-* If email capabilities are required, implement sending functionality.
-
-**Disclaimer**
-
-This script interacts directly with a graph database. Use at your own discretion; take database backups before altering settings. 
-
-**Contact**
-
-* Feel free to reach out at [your email] for questions or feedback. 
- 
-
-**Explanation**
-
-* **Clear Title:** Briefly states the purpose of the script.
-* **Intro:**  Summarizes the script's core functionality and the three policies it enforces.
-* **Features:** Concisely highlights key aspects.
-* **Prerequisites:** Guides users on the necessary Python libraries and database access.
-* **Setup:** Provides installation instructions and basic database configuration.
-* **Usage:**  Gives the command format and explains necessary and optional arguments.
-* **Customization:** Points out adjustable settings.
-* **To-Do:** Suggests possible future improvements.
-* **Disclaimer:** Emphasizes using the tool responsibly.
-* **Contact:** Encourages communication.
-
-**Let me know if you'd like any specific parts expanded on or other elements added to your README!** 

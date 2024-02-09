@@ -1,4 +1,4 @@
-#!/usr/bin/env /filepath/goes/here
+#!/usr/bin/env /filepath/to/python/goes/here
 
 import argparse
 import collections

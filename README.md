@@ -35,7 +35,7 @@ This Python script automates the generation of policy warning reports for a grap
    pip install argparse collections datetime pandas pandasql pymysql subprocess
    
 2. **Database Configuration:**
-   * Create a file named `/.../imyers/psswd/db` (adjust accordingly) and insert your database password there.
+   * Create a file named `/u/name/psswd/db` (adjust accordingly) and insert your database password there.
    * Update the `db` variable in the script if your graph database has a different name.
 
 **Usage**
